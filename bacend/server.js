@@ -22,6 +22,7 @@ app.get('/', (re,res) => {
 })
 
 
+
 app.get('/studentData', (req, res) => {
     const sql = "SELECT * FROM studentData";
     // const sql = "SELECT * FROM data where  RegisterNo=1245";
